@@ -1,6 +1,6 @@
-# ML-XPERT: Machine Learning Explorer & Reporting Tool
+# ML-FORGE: Machine Learning Explorer & Reporting Tool
 
-ML-XPERT is a comprehensive machine learning application designed to make the data science workflow more accessible and efficient. It provides a user-friendly interface for data processing, model training, and evaluation, all in a streamlined environment.
+ML-FORGE is a comprehensive machine learning application designed to make the data science workflow more accessible and efficient. It provides a user-friendly interface for data processing, model training, and evaluation, all in a streamlined environment.
 
 ## Features
 
@@ -36,8 +36,8 @@ llama-cpp-python (optional, for Chat Assistant feature)
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/ml-xpert.git
-   cd ml-xpert
+   git clone https://github.com/yourusername/ml-forge.git
+   cd ml-forge
    ```
 
 2. Install dependencies:
@@ -122,7 +122,7 @@ For questions or feedback, please contact:
 
 ## Screenshots
 
-Here are some screenshots of ML-XPERT in action:
+Here are some screenshots of ML-FORGE in action:
 
 ### Data Loading and Preprocessing
 ![Data Loading](images/data_loading.png)
@@ -138,7 +138,7 @@ Here are some screenshots of ML-XPERT in action:
 
 ## Deployment
 
-ML-XPERT can be deployed using:
+ML-FORGE can be deployed using:
 
 - [Streamlit Cloud](https://streamlit.io/cloud)
 - [Heroku](https://heroku.com)
