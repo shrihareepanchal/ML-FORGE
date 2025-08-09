@@ -7,7 +7,7 @@ This guide provides step-by-step instructions for deploying ML-FORGE to various 
 1. **Create a GitHub Repository**:
    - Go to [GitHub](https://github.com) and sign in
    - Click the "+" icon in the top right and select "New repository"
-   - Name your repository (e.g., "ml-xpert")
+   - Name your repository (e.g., "ml-forge")
    - Add a description
    - Choose public or private visibility
    - Click "Create repository"
@@ -24,7 +24,7 @@ This guide provides step-by-step instructions for deploying ML-FORGE to various 
    git commit -m "Initial commit"
    
    # Add the remote repository
-   git remote add origin https://github.com/yourusername/ml-xpert.git
+   git remote add origin https://github.com/yourusername/ml-forge.git
    
    # Push to GitHub
    git push -u origin main
@@ -42,7 +42,7 @@ This guide provides step-by-step instructions for deploying ML-FORGE to various 
    - Click "New app"
    - Select your repository, branch, and main file path (app.py)
    - Click "Deploy"
-   - Your app will be available at a URL like: https://yourusername-ml-xpert-app-xyz.streamlit.app
+   - Your app will be available at a URL like: https://yourusername-ml-forge-app-xyz.streamlit.app
 
 3. **Advanced Configuration** (if needed):
    - You can set secrets and environment variables in the Streamlit Cloud dashboard
@@ -60,7 +60,7 @@ This guide provides step-by-step instructions for deploying ML-FORGE to various 
    heroku login
    
    # Create a new Heroku app
-   heroku create ml-xpert
+   heroku create ml-forge
    ```
 
 3. **Deploy to Heroku**:
@@ -95,12 +95,12 @@ This guide provides step-by-step instructions for deploying ML-FORGE to various 
 
 3. **Initialize EB Application**:
    ```bash
-   eb init -p python-3.10 ml-xpert
+   eb init -p python-3.10 ml-forge
    ```
 
 4. **Create an Environment and Deploy**:
    ```bash
-   eb create ml-xpert-env
+   eb create ml-forge-env
    ```
 
 5. **Open Your Application**:
@@ -137,10 +137,10 @@ This guide provides step-by-step instructions for deploying ML-FORGE to various 
 4. **Build and Deploy**:
    ```bash
    # Build the container
-   gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/ml-xpert
+   gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/ml-forge
    
    # Deploy to Cloud Run
-   gcloud run deploy ml-xpert --image gcr.io/YOUR_PROJECT_ID/ml-xpert --platform managed
+   gcloud run deploy ml-forge --image gcr.io/YOUR_PROJECT_ID/ml-forge --platform managed
    ```
 
 ## Important Considerations
