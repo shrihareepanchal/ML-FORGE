@@ -1,21 +1,26 @@
-# ML-FORGE: Machine Learning Explorer & Reporting Tool
+# 🚀 ML-FORGE: Machine Learning Explorer & Reporting Tool
 
-ML-FORGE is a comprehensive machine learning application designed to make the data science workflow more accessible and efficient. It provides a user-friendly interface for data processing, model training, and evaluation, all in a streamlined environment.
+**ML-FORGE** is a comprehensive machine learning application designed to make the data science workflow more accessible and efficient. It provides a user-friendly interface for data processing, model training, and evaluation, all in a streamlined environment.
 
-## Features
+## ✨ Key Features
 
-- **Data Loading & Processing**: Support for various data formats with automated preprocessing options
-- **Exploratory Data Analysis (EDA)**: Interactive visualizations to understand your data
-- **Machine Learning Model Training**: Train multiple ML models with customizable parameters
-- **Deep Learning Model Training**: Build neural networks with TensorFlow
-- **CNN Image Classification**: End-to-end image processing and CNN model training
-- **Model Evaluation**: Comprehensive model performance metrics
-- **Chat Assistant**: Built-in chat interface powered by Llama 3.2 for ML guidance
-- **Exportable Reports**: Generate PDF reports of your ML experiments
+| Feature                          | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| 🗃️ **Data Upload & Preprocessing**     | Upload CSVs, handle missing values, encode categories & normalize features |
+| 📊 **Exploratory Data Analysis** | Visualize your data using scatter, heatmap, violin, and more                |
+| ⚙️ **Model Training**           | Train models like KNN, SVM, RF, GBM, ElasticNet with custom hyperparameters |
+| 🧠 **Deep Learning Support**     | Build ANN/RNN/CNN using TensorFlow or PyTorch                               |
+| 🖼️ **CNN Image Classifier**     | Upload image data and train CNN pipelines end-to-end                        |
+| 📈 **Performance Evaluation**    | See precision, recall, ROC, F1, AUC, and feature importances                |
+| 📄 **Automated Reports**         | Export PDF reports with metrics, visuals, and configuration summaries       |
+| 🤖 **AI Assistant (LLaMA 3.2)**  | Ask ML questions inside the app powered by local or API-based LLMs         |
 
-## Requirements
+---
+
+## 📦 Requirements
 
 ```
+```text
 streamlit
 pandas
 numpy
@@ -32,11 +37,11 @@ reportlab
 llama-cpp-python (optional, for Chat Assistant feature)
 ```
 
-## Installation
+## 🚀 Installation
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/ml-forge.git
+   git clone https://github.com/shrihareepanchal/ml-forge.git
    cd ml-forge
    ```
 
@@ -60,7 +65,7 @@ llama-cpp-python (optional, for Chat Assistant feature)
    - Place it in a directory of your choice
    - See [llama_setup_guide.md](llama_setup_guide.md) for detailed instructions
 
-## Usage
+## 🧭 Usage
 
 1. Run the application:
    ```bash
@@ -68,19 +73,19 @@ llama-cpp-python (optional, for Chat Assistant feature)
    ```
 
 2. Navigate through the different sections:
-   - Start by uploading your dataset in the **Data Loading** section
-   - Process your data using the **Data Processing** tools
-   - Explore your data with the **EDA** tools
-   - Train models using either **ML Model Training** or **DL Model Training** sections
-   - Evaluate your models' performance in the **Evaluate** section
-   - Generate reports in the **Report** section
-   - Ask questions about ML concepts in the **ML Chat Assistant** section
+   - 📂Start by uploading your dataset in the **Data Loading** section
+   - 🧹Process your data using the **Data Processing** tools
+   - 📊Explore your data with the **EDA** tools
+   - ⚙️Train models using either **ML Model Training** or **DL Model Training** sections
+   - 📈Evaluate your models' performance in the **Evaluate** section
+   - 📄Generate reports in the **Report** section
+   - 🤖Ask questions about ML concepts in the **ML Chat Assistant** section
 
-## Chat Assistant
+## 💬 Chat Assistant
 
 The ML Chat Assistant feature provides an interactive way to learn about machine learning concepts through natural language conversation. It uses a locally running Llama 3.2 model to answer your ML-related questions.
 
-### Setup
+### 🛠 Setup
 
 1. Install llama-cpp-python (see Installation section above)
 2. Download a Llama 3.2 model in GGUF format
@@ -89,14 +94,14 @@ The ML Chat Assistant feature provides an interactive way to learn about machine
    - Adjust parameters like GPU layers, context length, and batch size
    - Click "Load Model" to initialize the chat
 
-### Usage Tips
+### ✅ Usage Tips
 
 - Ask specific questions about machine learning concepts
 - Use the chat to guide your understanding of model selection and evaluation
 - Clear the chat history when starting a new topic
 - If you encounter memory issues, reduce the context length or batch size
 
-## CNN Image Classification
+## 🧠 CNN Image Classification
 
 The CNN section allows you to:
 
@@ -106,37 +111,37 @@ The CNN section allows you to:
 4. Evaluate model performance on test data
 5. Make predictions on new images
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
+## 📬 Contact
 
 For questions or feedback, please contact:
-- Email: your.email@example.com
-- GitHub: [yourusername](https://github.com/yourusername)
+- 📧 Email: shriharee0004@gmail.com
+- 🌐 GitHub: [shrihareepanchal](https://github.com/shrihareepanchal)
 
 ## Screenshots
 
 Here are some screenshots of ML-FORGE in action:
 
-### Data Loading and Preprocessing
+### 📂Data Loading and Preprocessing
 ![Data Loading](images/data_loading.png)
 
-### Model Training
+### ⚙️Model Training
 ![Model Training](images/model_training.png)
 
-### Model Evaluation
+### 📈Model Evaluation
 ![Model Evaluation](images/model_evaluation.png)
 
-### Analysis Report
+### 📄Analysis Report
 ![Analysis Report](images/analysis_report.png)
 
-## Deployment
+## ☁️Deployment
 
 ML-FORGE can be deployed using:
 
