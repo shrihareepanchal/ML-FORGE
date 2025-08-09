@@ -1,19 +1,33 @@
-# ML-FORGE: Machine Learning Explorer & Reporting Tool
+# 🚀 ML-FORGE: Machine Learning Explorer & Reporting Tool
 
 ML-FORGE is a comprehensive machine learning application designed to make the data science workflow more accessible and efficient. It provides a user-friendly interface for data processing, model training, and evaluation, all in a streamlined environment.
 
-## Features
+### 🎯 Why ML-FORGE?
 
-- **Data Loading & Processing**: Support for various data formats with automated preprocessing options
-- **Exploratory Data Analysis (EDA)**: Interactive visualizations to understand your data
-- **Machine Learning Model Training**: Train multiple ML models with customizable parameters
-- **Deep Learning Model Training**: Build neural networks with TensorFlow
-- **CNN Image Classification**: End-to-end image processing and CNN model training
-- **Model Evaluation**: Comprehensive model performance metrics
-- **Chat Assistant**: Built-in chat interface powered by Llama 3.2 for ML guidance
-- **Exportable Reports**: Generate PDF reports of your ML experiments
+🔧 **No-code preprocessing**  
+📊 **Visual EDA**  
+🧠 **ML/DL model training**  
+📈 **Interactive evaluation**  
+📄 **One-click PDF reporting**  
+💬 **Built-in ML assistant powered by LLaMA 3.2**
 
-## Project Structure
+---
+
+## ✨ Key Features
+
+| Feature                          | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| 🗃️ **Data Upload & Preprocessing**     | Upload CSVs, handle missing values, encode categories & normalize features |
+| 📊 **Exploratory Data Analysis** | Visualize your data using scatter, heatmap, violin, and more                |
+| ⚙️ **Model Training**           | Train models like KNN, SVM, RF, GBM, ElasticNet with custom hyperparameters |
+| 🧠 **Deep Learning Support**     | Build ANN/RNN/CNN using TensorFlow or PyTorch                               |
+| 🖼️ **CNN Image Classifier**     | Upload image data and train CNN pipelines end-to-end                        |
+| 📈 **Performance Evaluation**    | See precision, recall, ROC, F1, AUC, and feature importances                |
+| 📄 **Automated Reports**         | Export PDF reports with metrics, visuals, and configuration summaries       |
+| 🤖 **AI Assistant (LLaMA 3.2)**  | Ask ML questions inside the app powered by local or API-based LLMs         |
+
+---
+## 🗂️ Project Structure
 
 ```
 ML-FORGE/
@@ -51,7 +65,7 @@ ML-FORGE/
     └── visualization/     # Data visualization components
 ```
 
-## Requirements
+## 📦 Requirements
 
 ```
 streamlit>=1.30.0
@@ -65,11 +79,11 @@ xgboost>=2.0.0
 lightgbm>=4.0.0
 ```
 
-## Installation
+## 🚀 Installation
 
-1. Clone the repository:
+1. Clone the repository
    ```
-   git clone https://github.com/yourusername/ml-forge.git
+   git clone https://github.com/shrihareepanchal/ml-forge.git
    cd ml-forge
    ```
 
@@ -83,20 +97,20 @@ lightgbm>=4.0.0
    streamlit run main.py
    ```
 
-## Usage
+## 🧭 How to Use
 
-After launching the app, navigate through the sidebar to access different sections:
+Navigate through the sidebar:
 
-1. **Data Loading**: Upload your dataset
-2. **Preprocessing**: Clean and transform your data
-3. **EDA**: Explore your data with visualizations
-4. **Model Training**: Train ML models on your data
-5. **Evaluation**: Evaluate model performance
-6. **Report Generation**: Create comprehensive reports
+- 📂 Data Upload – Load CSV or image datasets
+- 🧹 Preprocessing – Clean and transform your data
+- 📊 EDA – Explore data through visualizations
+- 🤖 Model Training – Train ML/DL models
+- 📈 Evaluation – Assess model performance
+- 📄 Reporting – Export detailed PDF reports
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
